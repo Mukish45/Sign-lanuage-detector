@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 from tensorflow import keras
 from keras import models
-model2 = keras.models.load_model('model_2.h5')
+model2 = keras.models.load_model('2034033-Signing-Detector.h5')
 def preprocess(img):
   image_1_resize = cv2.resize(img,(256,256))
   image_1_b_w = cv2.cvtColor(image_1_resize, cv2.COLOR_BGR2GRAY)
